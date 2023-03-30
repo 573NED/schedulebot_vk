@@ -64,5 +64,4 @@ async def schedule_handler(message: Message):
     for div in divs[1:]:
         result += "> " + div + "\n"
     await message.answer(result)
-
 bot.run_forever()
